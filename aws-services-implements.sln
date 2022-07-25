@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Bucket.Console", "Bucket.Console\S3Bucket.Console.csproj", "{987C740F-5DCE-495E-98C7-3B54A99BA2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Bucket.Library", "Bucket.Library\S3Bucket.Library.csproj", "{1F0CDDE1-90CE-4641-8A4A-133B4B6AB9CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Console", "DynamoDB.Console\DynamoDB.Console.csproj", "{EF9B7855-BC50-4451-B417-E4C28B0866F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoDB.Library", "DynamoDB.Library\DynamoDB.Library.csproj", "{0BFB1544-C4BD-47CF-A4E9-2DE6F555BA2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQS.Console", "SQS.Console\SQS.Console.csproj", "{B1EE8D41-6D5C-4B2C-9F9B-9750369643F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQS.Library", "SQS.Library\SQS.Library.csproj", "{ABC0928B-1351-4B78-B886-21DC1BB1D5A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987C740F-5DCE-495E-98C7-3B54A99BA2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987C740F-5DCE-495E-98C7-3B54A99BA2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987C740F-5DCE-495E-98C7-3B54A99BA2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987C740F-5DCE-495E-98C7-3B54A99BA2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0CDDE1-90CE-4641-8A4A-133B4B6AB9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0CDDE1-90CE-4641-8A4A-133B4B6AB9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0CDDE1-90CE-4641-8A4A-133B4B6AB9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0CDDE1-90CE-4641-8A4A-133B4B6AB9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9B7855-BC50-4451-B417-E4C28B0866F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9B7855-BC50-4451-B417-E4C28B0866F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9B7855-BC50-4451-B417-E4C28B0866F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9B7855-BC50-4451-B417-E4C28B0866F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFB1544-C4BD-47CF-A4E9-2DE6F555BA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFB1544-C4BD-47CF-A4E9-2DE6F555BA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFB1544-C4BD-47CF-A4E9-2DE6F555BA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFB1544-C4BD-47CF-A4E9-2DE6F555BA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EE8D41-6D5C-4B2C-9F9B-9750369643F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EE8D41-6D5C-4B2C-9F9B-9750369643F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EE8D41-6D5C-4B2C-9F9B-9750369643F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EE8D41-6D5C-4B2C-9F9B-9750369643F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC0928B-1351-4B78-B886-21DC1BB1D5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC0928B-1351-4B78-B886-21DC1BB1D5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC0928B-1351-4B78-B886-21DC1BB1D5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC0928B-1351-4B78-B886-21DC1BB1D5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DD5D7AE-FD19-4E8E-AB1A-62808758F2C5}
+	EndGlobalSection
+EndGlobal

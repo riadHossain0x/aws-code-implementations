@@ -1,2 +1,2 @@
-<p align="center"><img src="/Images/aws.png"></p>
-<p align="center">AWS Code Implematations</p>
+<p align="center"><img src="/images/aws.png"></p>
+<p align="center">AWS Code Implementations</p>
